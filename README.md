@@ -1,4 +1,4 @@
-# Comp3005-Assignment3
+# Comp 3005 - Assignment 3
 
 ## Description
 

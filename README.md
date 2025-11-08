@@ -110,7 +110,12 @@ A short demonstration video showing:
 * Execution of all application functions
 * Effects of INSERT, UPDATE, DELETE operations in pgAdmin
 
-**Video Link:** [[Add your video link here]](https://youtu.be/96fTm9NtW4w)
+**Video Link:** [[Video link]](https://youtu.be/96fTm9NtW4w)
 
+OR copy paste this URL
+
+```
+https://youtu.be/96fTm9NtW4w
+```
 ---
 

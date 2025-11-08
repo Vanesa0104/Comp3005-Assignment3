@@ -27,20 +27,20 @@ Password for user postgres: ENTER YOUR PASSWORD
 
 2. Create the database:
 
-```
+```sql
 CREATE DATABASE school_db;
 ```
 
 3. Connect to the database:
 
-```
+```sql
 \c school_db;
 ```
 
 4. Execute the SQL script to create the `students` table and insert initial data:
 
 
-```
+```sql
 \i 'C:/Users/SomeUser/Path to file xxx/db/create_table.sql'
 ```
 
@@ -54,7 +54,7 @@ INSERT 0 3
 
 5. Verify the data:
 
-```
+```sql
 SELECT * FROM students;
 ```
 

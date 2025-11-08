@@ -34,8 +34,8 @@ def resetTable():
             "('Jane', 'Smith', 'jane.smith@example.com', '2023-09-01'), "
             "('Jim', 'Beam', 'jim.beam@example.com', '2023-09-02');")
     
-    # shows data
-    getAllStudents()
+    # # shows data
+    # getAllStudents()
 
 def getAllStudents():
     # Retrieve and display all students in order of id

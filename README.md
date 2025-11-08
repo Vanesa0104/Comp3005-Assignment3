@@ -9,8 +9,9 @@ The application allows you to:
 * Add a new student
 * Update a student's email
 * Delete a student
-  And a little personal touch I added, is the option to...
 * Reset the table to initial data
+
+(I decided to add the reset table function)
 
 The database operations are executed through Python using the `subprocess` module and `psql`.
 

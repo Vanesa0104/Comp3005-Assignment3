@@ -21,41 +21,40 @@ The database operations are executed through Python using the `subprocess` modul
 1. Open **psql** and connect to your PostgreSQL server:
 
 ```
-Example: 
 C:\Users\SomeUser\Downloads\Comp 3005\Assignment 3>psql -U postgres
 Password for user postgres: ENTER YOUR PASSWORD
 ```
 
 2. Create the database:
 
-```sql
+```
 CREATE DATABASE school_db;
 ```
 
 3. Connect to the database:
 
-```sql
+```
 \c school_db;
 ```
 
 4. Execute the SQL script to create the `students` table and insert initial data:
 
 
-```sql
+```
 \i 'C:/Users/SomeUser/Path to file xxx/db/create_table.sql'
 ```
 
 **Expected output:**
 
 ```
-psql:C:/Users/Anava/Downloads/Comp 3005/Assignment 3/db/create_table.sql:
+C:/Users/Anava/Downloads/Comp 3005/Assignment 3/db/create_table.sql:
 CREATE TABLE
 INSERT 0 3
 ```
 
 5. Verify the data:
 
-```sql
+```
 SELECT * FROM students;
 ```
 

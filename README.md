@@ -47,7 +47,7 @@ CREATE DATABASE school_db;
 **Expected output:**
 
 ```
-C:/Users/Anava/Downloads/Comp 3005/Assignment 3/db/create_table.sql:
+'C:/Users/SomeUser/Path to file xxx/db/create_table.sql:
 CREATE TABLE
 INSERT 0 3
 ```
